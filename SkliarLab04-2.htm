@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Рядки, що біжать – Горизонтальні</title>
+<meta name="description" content="Приклад роботи з рядками, що біжать (горизонтально)">
+</head>
+<body style="background-color:#fff8dc;">
+
+<!-- 1. Текст коливається з боку в бік -->
+<marquee width="100%" height="50" bgcolor="#add8e6" behavior="alternate">
+  <font color="#191970" face="Verdana" size="4"><b><i>Коливання тексту з боку в бік</i></b></font>
+</marquee>
+
+<!-- 2. Текст пробігає справа наліво та з’являється знову -->
+<marquee width="100%" height="50" bgcolor="#ffe4b5" direction="left">
+  <font color="#8b4513" face="Arial" size="4"><b>Текст рухається справа наліво безперервно</b></font>
+</marquee>
+
+<!-- 3. Текст пробігає зліва направо та зупиняється -->
+<marquee width="100%" height="50" bgcolor="#90ee90" direction="right" behavior="slide">
+  <font color="#006400" face="Tahoma" size="4"><b>Текст рухається зліва направо та зупиняється</b></font>
+</marquee>
+
+<!-- 4. Два рядки з різними режимами запізнення -->
+<marquee width="100%" height="50" bgcolor="#dda0dd" direction="left" scrollamount="3">
+  <font color="#4b0082" face="Courier New" size="4"><b>Повільний рух тексту зліва направо</b></font>
+</marquee>
+
+<marquee width="100%" height="50" bgcolor="#f08080" direction="right" scrollamount="10">
+  <font color="#ffffff" face="Georgia" size="4"><b>Швидкий рух тексту справа наліво</b></font>
+</marquee>
+
+</body>
+</html>

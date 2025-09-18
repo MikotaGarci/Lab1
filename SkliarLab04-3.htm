@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>ПРИКЛАД РЯДКА, ЩО БІЖИТЬ</title>
+<meta name="description" content="Приклад роботи з рядками, що біжать (вертикально)">
+</head>
+<body style="background-color:#fffaf0;">
+
+<!-- 1. Текст та рисунки коливаються -->
+<marquee width="100%" height="100" bgcolor="#ffebcd" behavior="alternate" direction="up">
+  <font color="#8b0000" face="Verdana" size="4"><b>ПРИКЛАД РЯДКА, ЩО БІЖИТЬ</b></font><br>
+  <img src="Mario.jpg" alt="demo">
+</marquee>
+
+<!-- 2. Рисунки біжать знизу вгору безперервно -->
+<marquee width="100%" height="100" bgcolor="#e0ffff" direction="up" scrollamount="3">
+  <img src="arrow.jpg" alt="red">
+  <img src="arrow.jpg" alt="green">
+  <img src="arrow.jpg" alt="blue">
+</marquee>
+
+<!-- 3. Рисунки біжать згори вниз і зупиняються -->
+<marquee width="100%" height="100" bgcolor="#ffe4e1" direction="down" behavior="slide">
+  <img src="bow weapon.jpg" alt="yellow">
+  <img src="bow weapon.jpg" alt="purple">
+</marquee>
+
+<!-- 4. Два рядки з різним запізненням -->
+<marquee width="100%" height="100" bgcolor="#f5f5dc" direction="up" scrollamount="2">
+  <font color="#2e8b57" face="Georgia" size="4"><b>ПРИКЛАД РЯДКА, ЩО БІЖИТЬ</b></font>
+</marquee>
+
+<marquee width="100%" height="100" bgcolor="#fafad2" direction="down" scrollamount="8">
+  <font color="#ff1493" face="Tahoma" size="4"><b>ПРИКЛАД РЯДКА, ЩО БІЖИТЬ</b></font>
+</marquee>
+
+</body>
+</html>
